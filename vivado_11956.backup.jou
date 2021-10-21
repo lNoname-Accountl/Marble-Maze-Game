@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Nov 23 14:20:08 2020
+# Process ID: 11956
+# Current directory: C:/Users/tar_j/Desktop/project_Digital
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11432 C:\Users\tar_j\Desktop\project_Digital\project_Digital.xpr
+# Log file: C:/Users/tar_j/Desktop/project_Digital/vivado.log
+# Journal file: C:/Users/tar_j/Desktop/project_Digital\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tar_j/Desktop/project_Digital/project_Digital.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/tar_j/Downloads/MarbleMazeGame.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/tar_j/Downloads/MarbleMazeGame.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/tar_j/Downloads/SPI_StateMachine.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/tar_j/Downloads/SPI_StateMachine.sv
+export_ip_user_files -of_objects  [get_files C:/Users/tar_j/Downloads/FrameLoader.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/tar_j/Downloads/FrameLoader.sv
